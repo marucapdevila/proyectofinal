@@ -1,0 +1,197 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+/* line 5, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+.logo {
+  width: 125px;
+}
+
+/* line 9, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+.lista_principal {
+  display: flex;
+  list-style-type: none;
+  font-family: 'Arima Madurai', cursive;
+  font-size: 15px;
+}
+/**index**/
+/* line 19, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+.logo_j {
+  width: 20%;
+  overflow: hidden;
+  margin: 20%;
+}
+
+/* line 25, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+.card_jardin {
+  width: 15rem;
+  margin: 3%;
+  text-align: center;
+}
+
+/* line 31, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+.logo_p {
+  width: 20%;
+  overflow: hidden;
+  margin: 20%;
+}
+
+/* line 37, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+.card_primaria {
+  width: 15rem;
+  margin: 3%;
+  text-align: center;
+}
+
+/* line 43, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+.logo_s {
+  width: 20%;
+  overflow: hidden;
+  margin: 20%;
+  transition: 0.5s;
+  object-fit: cover;
+}
+
+/* line 52, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+.logo_j:hover {
+  transform: scale(1.2);
+}
+
+/* line 55, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+.logo_p:hover {
+  transform: scale(1.2);
+}
+
+/* line 58, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+.logo_s:hover {
+  transform: scale(1.2);
+}
+
+/* line 62, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+.card_secundaria {
+  width: 15rem;
+  margin: 3%;
+  text-align: center;
+}
+
+/* line 68, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+.card-title {
+  color: cadetblue;
+}
+
+/**nuestro colegio**/
+/* line 79, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+h2 {
+  text-align: center;
+  color: cadetblue;
+}
+
+/* line 87, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+.jardinn_card_areas {
+  text-align: center;
+  width: 15rem;
+  margin: 3%;
+}
+
+/* line 94, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+.primariaa_card_areas {
+  text-align: center;
+  width: 15rem;
+  margin: 3%;
+}
+
+/* line 100, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+.secundariaa_card_areas {
+  text-align: center;
+  width: 15rem;
+  margin: 3%;
+}
+
+/**areas**/
+/* line 108, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+h3 {
+  text-align: right;
+  color: cadetblue;
+}
+
+/* line 113, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+p {
+  text-align: center;
+}
+
+/* line 117, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+.imgArt {
+  width: 100%;
+}
+
+/**proyecto educativo*/
+/* line 124, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+h4 {
+  color: cadetblue;
+}
+
+/**footer**/
+/* line 131, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+footer {
+  background-color: cadetblue;
+}
+
+/* line 136, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+.contenedor-info-footer {
+  height: auto;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  padding-bottom: 2%;
+  justify-content: space-around;
+}
+
+/* line 144, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+.columna {
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+
+/* line 150, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+.redes-sociales {
+  font-size: 1.2rem;
+  padding: 8px 20px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 6%;
+}
+
+/* line 158, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+.copy {
+  text-align: center;
+  font-size: 1rem;
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  /* line 165, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+  .contenedor-info-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 172, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+  .contenedor-info-footer {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 178, ../../../OneDrive/Escritorio/proyecto 7/scss/style.scss */
+  .titulo-info-footer {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
